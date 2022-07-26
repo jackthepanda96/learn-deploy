@@ -15,7 +15,9 @@ func New(db *gorm.DB) domain.UserRepository {
 	}
 }
 func (ur *userRepository) Insert(newUser domain.User) (domain.User, error) {
-
+	// Edit by Atha DF
+	return domain.User{}, nil
+	// Last edit
 }
 func (ur *userRepository) GetForLogin(email string, password string) (domain.User, error) {
 	//line 1
