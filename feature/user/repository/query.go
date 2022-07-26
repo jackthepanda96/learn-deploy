@@ -18,6 +18,7 @@ func (ur *userRepository) Insert(newUser domain.User) (domain.User, error) {
 	ini belum selesai
 	masa sih?
 	iya
+	yang bener?
 	panic("unimplemented")
 }
 func (ur *userRepository) GetForLogin(email string, password string) (domain.User, error) {
