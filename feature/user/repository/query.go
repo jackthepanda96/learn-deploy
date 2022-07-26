@@ -15,10 +15,12 @@ func New(db *gorm.DB) domain.UserRepository {
 	}
 }
 func (ur *userRepository) Insert(newUser domain.User) (domain.User, error) {
-
+	ini belum selesai
+	masa sih?
+	panic("unimplemented")
 }
 func (ur *userRepository) GetForLogin(email string, password string) (domain.User, error) {
-
+	
 }
 func (ur *userRepository) GetByID(idUser int) (domain.User, error) {
 
