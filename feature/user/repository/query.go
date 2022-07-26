@@ -26,4 +26,5 @@ func (ur *userRepository) GetForLogin(email string, password string) (domain.Use
 func (ur *userRepository) GetByID(idUser int) (domain.User, error) {
 	// sendok
 	// garpu
+	// 3 hari lagi hari jumat :(
 }
