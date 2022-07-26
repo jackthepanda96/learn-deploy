@@ -20,11 +20,10 @@ func (ur *userRepository) Insert(newUser domain.User) (domain.User, error) {
 	// Last edit
 }
 func (ur *userRepository) GetForLogin(email string, password string) (domain.User, error) {
-	//line 1
-	//line 2
-	//line 99
-	//dari jerry
-	//nambah lagi
+	//add crazy fitur 
+	//yang inggak ada di rancangan
+	//sukses membuat anggota project kewalahan
+	//wkwk
 }
 func (ur *userRepository) GetByID(idUser int) (domain.User, error) {
 	//hello darkness my old friend
