@@ -18,8 +18,13 @@ func (ur *userRepository) Insert(newUser domain.User) (domain.User, error) {
 
 }
 func (ur *userRepository) GetForLogin(email string, password string) (domain.User, error) {
-
+	//line 1
+	//line 2
+	//line 99
+	//dari jerry
 }
 func (ur *userRepository) GetByID(idUser int) (domain.User, error) {
-
+	// sendok
+	// garpu
+	// 3 hari lagi hari jumat :(
 }
